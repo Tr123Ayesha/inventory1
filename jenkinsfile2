@@ -1,0 +1,8 @@
+pipeline{
+agent any
+stages('test'){
+steps{
+sh 'python3 selenium.py'
+}
+}
+}
